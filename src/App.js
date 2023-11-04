@@ -1,9 +1,6 @@
-import React from "react";
-import Greeting from "./components/greeting";
+import React from 'react';
+import Greeting from './components/greeting';
 
-const App = ()=>{
+const App = () => <Greeting />;
 
-    return < Greeting />
-  }
-
-  export default App;
+export default App;
